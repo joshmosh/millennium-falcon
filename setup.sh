@@ -11,11 +11,11 @@ brew update
 # Install homebrew recipes
 recipes=(
   curl
-  mongodb
-  postgresql
-  mysql
-  redis
   git
+  mongodb
+  mysql
+  postgresql
+  redis
 )
 
 echo "Installing recipes..."
@@ -32,31 +32,36 @@ brew install caskroom/cask/brew-cask
 # Install apps
 apps=(
   1password
+  atom
+  beamer
+  cloudup
+  cyberduck
   dropbox
+  firefox
+  flux
+  github
   google-chrome
   google-drive
-  slack
-  transmit
-  firefox
-  spotify
-  atom
-  flux
-  mailbox
-  sketch
-  vlc
-  cloudup
-  skype
-  transmission
-  cyberduck
-  the-unarchiver
+  gpgtools
   keepingyouawake
+  macvim
+  mailbox
   mou
-  sequel-pro
   pgadmin3
-  sourcetree
   private-internet-access
   rdm
-  github
+  sequel-pro
+  sketch
+  skype
+  slack
+  sourcetree
+  spotify
+  the-unarchiver
+  tower
+  transmission
+  transmit
+  transmit
+  vlc
 )
 
 echo "Installing apps..."
