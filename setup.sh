@@ -34,12 +34,11 @@ apps=(
   1password
   atom
   beamer
-  cloudup
   cyberduck
   dropbox
   firefox
   flux
-  github
+  github-desktop
   google-chrome
   google-drive
   gpgtools
@@ -47,9 +46,11 @@ apps=(
   macvim
   mailbox
   mou
+  paw
   pgadmin3
   private-internet-access
   rdm
+  screenhero
   sequel-pro
   sketch
   skype
@@ -59,7 +60,6 @@ apps=(
   the-unarchiver
   tower
   transmission
-  transmit
   transmit
   vlc
 )
