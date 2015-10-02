@@ -34,6 +34,7 @@ apps=(
   1password
   atom
   beamer
+  cloud
   cyberduck
   dropbox
   firefox
