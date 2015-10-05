@@ -43,6 +43,7 @@ apps=(
   google-chrome
   google-drive
   gpgtools
+  kaleidoscope
   keepingyouawake
   macvim
   mailbox
