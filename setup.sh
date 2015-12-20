@@ -12,10 +12,6 @@ brew update
 recipes=(
   curl
   git
-  mongodb
-  mysql
-  postgresql
-  redis
 )
 
 echo "Installing recipes..."
@@ -34,23 +30,18 @@ apps=(
   1password
   atom
   beamer
-  cloud
   cyberduck
   dropbox
-  firefox
   flux
-  github-desktop
   google-chrome
   google-drive
   gpgtools
+  gfxcardstatus
   kaleidoscope
   keepingyouawake
-  macvim
-  mailbox
   mou
   paw
   pgadmin3
-  private-internet-access
   rdm
   screenhero
   sequel-pro
@@ -63,6 +54,8 @@ apps=(
   tower
   transmission
   transmit
+  vagrant
+  virtualbox
   vlc
 )
 
