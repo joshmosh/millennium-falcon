@@ -27,14 +27,10 @@ brew install caskroom/cask/brew-cask
 
 # Install apps
 apps=(
-  1password
   atom
   beamer
   cyberduck
-  dropbox
   flux
-  google-chrome
-  google-drive
   gpgtools
   gfxcardstatus
   kaleidoscope
@@ -48,11 +44,8 @@ apps=(
   sketch
   skype
   slack
-  sourcetree
   spotify
-  the-unarchiver
   tower
-  transmission
   transmit
   vagrant
   virtualbox
@@ -61,3 +54,15 @@ apps=(
 
 echo "Installing apps..."
 brew cask install ${apps[@]}
+
+# Some apps like living in the applications folder.
+# Let's keep them happy. :)
+apps_apps=(
+  1password
+  dropbox
+  google-chrome
+  google-drive
+)
+
+echo "Installing more apps..."
+brew cask install --appdir=/Applications ${apps_apps[@]}
